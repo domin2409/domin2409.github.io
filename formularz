@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+</head>
+
+<body>
+    <form action="g906459@nwytg.com" //użyłem tymczasowego adresu poczty
+       method="POST">
+       
+        imię <br>
+        <input type="text" name="imię"> <br>
+        
+         email <br>
+        <input type="email" name="email"><br>
+        
+         telefon <br>
+        <input type="text" name="telefon"><br>
+        
+         miasto <br>
+        <input type="select" name="miasto"><br>
+        
+        <input type="radio" name="plec" value="mężczyzna" checked> mężczyzna<br>
+        <input type="radio" name="plec" value="kobieta"> kobieta<br>
+        <input type="radio" name="plec" value="inne"> inne <br>
+        
+         wiadomość <br>
+        <input type="textarea" name="wiadomość"><br>
+        
+        
+          zgoda na wykorzystanie danych osobowych <br>
+        <input type="checkbox" name="zgoda"><br>
+        
+        <input type="submit" value="wyślij"> <br>
+    </form>
+</body>
+
+</html>
