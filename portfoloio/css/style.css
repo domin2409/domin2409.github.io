@@ -1,0 +1,42 @@
+    }
+
+    #main-header {
+        background-image: url(../fotki/header-background.jpg);
+        height: 600px;
+        background-position: top center;
+        background-size: cover;
+        color: #ffff;
+    }
+
+    #main-header .header-content {
+        text-align: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    #main-header .header-content h1 {
+        font-size: 4em;
+        font-family: "Roboto" sans-serif;
+        font-weight: 300;
+    }
+
+    #main-header .header-content h2 {
+        font-weight: 300;
+        font-size: 2em;
+    }
+
+    #about {
+        background-color: #f9fcfe;
+    }
+
+    #about figure {
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
+
+    #about figure img {
+        max-height: 350px;
+        max-width: 100%;
+    }
